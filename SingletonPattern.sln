@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleCheckSingleton", "Dou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonWithLazyType", "SingletonWithLazyType\SingletonWithLazyType.csproj", "{24473759-72A1-4BC9-BE0F-6BDAACCE3699}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueLazyLoadingSingleton", "TrueLazyLoadingSingleton\TrueLazyLoadingSingleton.csproj", "{48403193-0FFD-48D5-884E-767F5B9C35EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{24473759-72A1-4BC9-BE0F-6BDAACCE3699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24473759-72A1-4BC9-BE0F-6BDAACCE3699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24473759-72A1-4BC9-BE0F-6BDAACCE3699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48403193-0FFD-48D5-884E-767F5B9C35EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48403193-0FFD-48D5-884E-767F5B9C35EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48403193-0FFD-48D5-884E-767F5B9C35EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48403193-0FFD-48D5-884E-767F5B9C35EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
