@@ -22,11 +22,11 @@ internal sealed class TrueLazyLoadingSingleton
 
     static TrueLazyLoadingSingleton() => ClassName = nameof(TrueLazyLoadingSingleton);
 
-    private class Nested
+    private static class Nested
     {
         internal static readonly TrueLazyLoadingSingleton Instance;
 
         // 'beforefieldinit' removed from IL
-        static Nested() => Instance = new();
+        static Nested() => Instance = new TrueLazyLoadingSingleton();
     }
 }
